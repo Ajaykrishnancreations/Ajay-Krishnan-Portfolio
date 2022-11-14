@@ -1,0 +1,165 @@
+{
+  "main": {
+    "name":"Ajay krishnan,",
+    "description":"I like to craft solid and scalable Front-End products with great user experiences.",
+    "image":"profilepic.jpg",
+    "bio":"I’m Ajay krishnan from Dindigul,I completed my degree BCA in PERIYAR UNIVERSCITY.",
+    "contactmessage":"I'm a MERN Stack web developer based in the India",
+    "email": "ajaytaker36@gmail.com",
+    "phone": "+91 6382124970",
+    "github":"https://github.com/Ajaykrishnancreations",
+    "project":"https://github.com/Ajaykrishnancreations",
+    "address":{
+      "street":"1/507,Palayam,",
+      "city":"TamilNadu,",
+      "state":"India,",
+      "zip": "624620"
+    },
+    "website": "https://github.com/Ajaykrishnancreations",
+    "resumedownload":"https://drive.google.com/file/d/15iGPbIz_RKg5ah6s0T00sANuAysE2nr5/view?usp=share_link",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"https://www.facebook.com/ajai.ammlu/",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"twitter",
+        "url":"http://twitter.com",
+        "className":"fa fa-twitter"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/ajay-krishnan-6a9964188",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"https://www.instagram.com/ajay_ammlu/",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/Ajaykrishnancreations",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"My skills are in web development",
+    "education":[
+      {
+        "school":"[PGP COLLEGE OF ARTS&SCIENCE]",
+        "degree":"BCA-[Computer science] @ PERIYAR UNIVERSCITY",
+        "graduated":"April 2021",
+        "description":""
+      },
+      {
+        "school":"[ASHRAM HI SEC SCHOOL]",
+        "degree":"STATE BOARD OF SCHOOL-Xll",
+        "graduated":"March 2018",
+        "description":""
+      },
+      {
+        "school":"[CHETTINAD RANI MEYYAMMAI MATRIC SCHOOL]",
+        "degree":"STATE BOARD OF SCHOOL-X",
+        "graduated":"March 2016",
+        "description":""
+      }
+    ],
+
+    "certification":[
+      {
+        "institue":"Livewire",
+        "titles":"MERN Stack development Course",
+        "duration":"Jun-2021 to Mar-2022",
+        "description":"" 
+      }
+    ],
+
+    "work":[
+      {
+        "company":"Cornerstohn Solution",
+        "title":"Front End developer",
+        "years":"Apr-2022 to present",
+        "description":""
+      }
+    ],
+    "skills":[
+      {
+        "name":"HTML & CSS",
+        "level":"90%"
+      },
+      {
+        "name":"Ajax & Jquery",
+        "level":"60%"
+      },
+      {
+        "name":"Bootstrap 5",
+        "level":"70%"
+      },
+      {
+        "name":"Javascript",
+        "level":"80%"
+      },
+      {
+        "name":"React js",
+        "level":"70%"
+      },
+      {
+        "name":"MongoDB",
+        "level":"60%"
+      },
+      {
+        "name":"Node js & Express js",
+        "level":"50%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Html",
+        "category":"My Travel Blog for my post-university travels",
+        "image":"01.jpg",
+        "url":"https://ajaykrishnancreations3.on.drv.tw/html-project/main%20file.html"
+      },
+      {
+        "title":"Css Login form",
+        "category":"(offline now) A fighting gear company I started",
+        "image":"02.png",
+        "url":"https://ajaykrishnancreations3.on.drv.tw/www.Ajaykrishnan.com/login1.html"
+      },
+      {
+        "title":"Login form Validation",
+        "category":"Website I built for a restaurant I like in Thailand",
+        "image":"03.jpg",
+        "url":"https://ajaykrishnancreations3.on.drv.tw/www.Ajayammlu.com/login.html"
+      },
+      {
+        "title":"TIC TAC TOE JS",
+        "category":"A React based resume website template",
+        "image":"04.jpg",
+        "url":"https://ajaykrishnancreations3.on.drv.tw/www.Ajaykrishnan.com/ajaykrishnan.html"
+      },
+      {
+        "title":"Protfolio",
+        "category":"(MVP Only) A React and Meteor based chat University project.",
+        "image":"05.jpg",
+        "url":"http://www.smirkspace.com"
+      },
+      {
+        "title":"Purple Butterfly",
+        "category":"My Travel Blog for my post-university travels",
+        "image":"06.jpg",
+        "url":"https://15.206.166.159"
+      },
+      {
+        "title":"Cornerstohn-ACLIENTS",
+        "category":"(offline now) A fighting gear company I started",
+        "image":"07.png",
+        "url":"https://www.figma.com/file/QI5ckPZhsEdZz0oFGSzspr/Cornerstohn-ACLIENTS?node-id=0%3A1"
+      }
+    ]
+  }
+}
