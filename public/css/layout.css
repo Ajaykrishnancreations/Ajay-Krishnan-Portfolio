@@ -202,9 +202,28 @@ ul#nav li.current a { color: #fe6928; }
 }
 #about .profile-pic {
    position: relative;
+   width: 200px;
+   height: 200px;
+   border-radius: 100%;
+}
+#about .profile-pic1 {
+   position: relative;
    width: 120px;
    height: 120px;
-   border-radius: 100%;
+   margin-bottom: 20px;
+}
+.profile-pic1 {
+   display: none;
+}
+@media only screen and (max-width: 767px) {
+   .profile-pic1 {
+      display: block;
+   }
+}
+@media only screen and (min-width: 768px) {
+   .profile-pic1 {
+      display: none;
+   }
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {
@@ -758,7 +777,7 @@ call-to-action .button {
     margin: 0 6px;
     display: inline-block;
     zoom: 1;
-    *display: inline;
+    display: inline;
 }
 .flex-control-paging li a {
     width: 12px;
