@@ -9,7 +9,7 @@ class Header extends Component {
     const project = this.props.data.project;
     const github = this.props.data.github;
     const name = this.props.data.name;
-    const description = this.props.data.description;
+    // const description = this.props.data.description;
 
     return (
       <header id="home">
@@ -62,9 +62,21 @@ class Header extends Component {
               <h1 className="responsive-headline">{name}</h1>
             </Fade>
             <Fade bottom duration={1200}>
-              <h3>{description}.</h3>
+              {/* <div style={{padding:30}}>
+                <span className="roadmap-style">Html & Css</span>
+                <span style={{ color: "white",fontSize:"10px" }}>----------</span>
+                <span className="roadmap-style">JavaScipt</span>
+                <span style={{ color: "white",fontSize:"10px" }}>----------</span>
+                <span className="roadmap-style">React JS</span>
+                <span style={{ color: "white",fontSize:"10px" }}>----------</span>
+                <span className="roadmap-style">MongoDB</span>
+                <span style={{ color: "white",fontSize:"10px" }}>----------</span>
+                <span className="roadmap-style">Node js & Express</span>
+              </div> */}
+              <div>
+                <img src="https://app-techsolutions.com/wp-content/uploads/2023/05/How-to-Build-a-Basic-Web-Application-with-MERN-Stack-1100x406.png" alt="" style={{height: "anto",width: "100%",borderRadius: 20,opacity:0.7}}></img>
+              </div>
             </Fade>
-            <hr />
             <Fade bottom duration={2000}>
               <ul className="social">
                 <a href={project} className="button btn project-btn">
