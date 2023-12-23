@@ -3,12 +3,12 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ReactGA from "react-ga";
 import $ from "jquery";
 import "./App.css";
-import Header from "./Components/Header";
-import Footer from "./Components/Footer";
-import About from "./Components/About";
-import Resume from "./Components/Resume";
-import Contact from "./Components/Contact";
-import Portfolio from "./Components/Portfolio";
+// import Header from "./Components/Header";
+// import Footer from "./Components/Footer";
+// import About from "./Components/About";
+// import Resume from "./Components/Resume";
+// import Contact from "./Components/Contact";
+// import Portfolio from "./Components/Portfolio";
 import NewYear from '../src/NewYear/NewYear';
 
 class App extends Component {
@@ -47,10 +47,10 @@ class App extends Component {
       <>
         <Router>
           <Routes>
-            <Route path="/NewYear" element={<NewYear />} />
+            <Route path="/" element={<NewYear />} />
           </Routes>
         </Router>
-        {window.location.pathname !== "/NewYear" && (
+        {/* {window.location.pathname !== "/NewYear" && (
           <div className="App">
             <Header data={this.state.resumeData.main} />
             <About data={this.state.resumeData.main} />
@@ -59,7 +59,7 @@ class App extends Component {
             <Contact data={this.state.resumeData.main} />
             <Footer data={this.state.resumeData.main} />
           </div>
-        )}
+        )} */}
       </>
     );
   }
