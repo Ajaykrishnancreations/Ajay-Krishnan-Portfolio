@@ -154,12 +154,12 @@ const App = () => {
                 <label style={{ color: "white", margin: 0 }}>
                   Enter your Name:
                   <br />
-                  <input style={{ color: "white", background: "rgb(49 57 57)", marginTop: 5, border: "1px solid #868686", padding: 10, width: "100%", borderRadius: "10px", fontWeight: 600 }} type="text" value={name} onChange={(e) => setName(e.target.value)} required />
+                  <input style={{ color: "white", background: "rgb(49 57 57)", marginTop: 5, border: "1px solid #868686", padding: 10, width: "330px",height:"50px", borderRadius: "10px", fontWeight: 600 }} type="text" value={name} onChange={(e) => setName(e.target.value)} required />
                 </label>
                 <label style={{ color: "white" }}>
                   Date of Birth:
                   <br />
-                  <input style={{ color: "white", background: "rgb(49 57 57)", marginTop: 5, border: "1px solid #868686", padding: 10, width: "100%", borderRadius: "10px", fontWeight: 600 }} type="date" value={dob} onChange={(e) => setDob(e.target.value)} required />
+                  <input style={{ color: "white", background: "rgb(49 57 57)", marginTop: 5, border: "1px solid #868686", padding: 10, width: "330px",height:"50px", borderRadius: "10px", fontWeight: 600 }} type="date" value={dob} onChange={(e) => setDob(e.target.value)} required />
                 </label>
                 <br />
                 <button type="submit" style={{ width: "80%", borderRadius: "30px" }}>
