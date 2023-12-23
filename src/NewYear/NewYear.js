@@ -151,6 +151,7 @@ const App = () => {
               <h4 style={{ color: "white", marginTop: "20%", fontFamily: "emoji" }}>Wishing you a joyous and prosperous New Year in 2024! Check out this New Year quote just for you.</h4>
               <br />
               <form onSubmit={handleSubmit}>
+                <center>
                 <label style={{ color: "white", margin: 0 }}>
                   Enter your Name:
                   <br />
@@ -165,6 +166,7 @@ const App = () => {
                 <button type="submit" style={{ width: "80%", borderRadius: "30px" }}>
                   Submit
                 </button>
+                </center>
               </form>
             </div>
           ) : (
