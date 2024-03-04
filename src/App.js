@@ -1,8 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router,
-  //  Routes,
-  //   Route
-   } from "react-router-dom";
+// import { BrowserRouter as Router,Routes, Route } from "react-router-dom";
 import ReactGA from "react-ga";
 import $ from "jquery";
 import "./App.css";
@@ -48,7 +45,7 @@ class App extends Component {
   render() {
     return (
       <>
-        <Router>
+        {/* <Router> */}
           {/* <Routes> */}
             {/* <Route path="/" element={<NewYear />} /> */}
             <div className="App">
@@ -60,7 +57,7 @@ class App extends Component {
             <Footer data={this.state.resumeData.main} />
           </div>
           {/* </Routes> */}
-        </Router>
+        {/* </Router> */}
         {/* {window.location.pathname !== "/NewYear" && (
           <div className="App">
             <Header data={this.state.resumeData.main} />
