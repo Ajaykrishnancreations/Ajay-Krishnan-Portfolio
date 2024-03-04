@@ -1,9 +1,9 @@
 {
   "main": {
     "name":"Ajay krishnan,",
-    "description":"Hello, I'm Ajay Krishnan, a React.js developer with 1.8 years of experience. I’m from Dindigul and I'm currently employed at Turbo Start, here I’m a React.js developer . I have done my Bachelor's degree in(BCA), and I have done MERN stack development course from Livewire Institute.",
+    "description":"Hello, I'm Ajay Krishnan, a Web developer with 2 years of experience. I’m from Dindigul and I'm currently employed at Turbo Start, here I’m a React.js developer . I have done my Bachelor's degree in(BCA), and I have done MERN stack development course from Livewire Institute.",
     "image":"profilepic.jpg",
-    "bio":"Hello, I'm Ajay Krishnan, a React.js developer with 1.8 years of experience. I’m from Dindigul and I'm currently employed at Turbo Start, here I’m a React.js developer . I have done my Bachelor's degree in(BCA), and I have done MERN stack development course from Livewire Institute.",
+    "bio":"Hello, I'm Ajay Krishnan, a Web developer with 2 years of experience. I’m from Dindigul and I'm currently employed at Turbo Start, here I’m a React.js developer . I have done my Bachelor's degree in(BCA), and I have done MERN stack development course from Livewire Institute.",
     "contactmessage":"I'm a MERN Stack web developer based in the India",
     "email": "ajaytaker36@gmail.com",
     "phone": "+91 6382124970",
@@ -88,7 +88,7 @@
     "skills":[
       {
         "name":"HTML & CSS",
-        "level":"90%"
+        "level":"95%"
       },
       {
         "name":"Ajax & Jquery",
@@ -96,7 +96,7 @@
       },
       {
         "name":"Bootstrap 5",
-        "level":"70%"
+        "level":"95%"
       },
       {
         "name":"Javascript",
@@ -104,15 +104,20 @@
       },
       {
         "name":"React js",
-        "level":"70%"
+        "level":"90%"
       },
       {
         "name":"MongoDB",
-        "level":"60%"
+        "level":"80%"
       },
       {
         "name":"Node js & Express js",
-        "level":"50%"
+        "level":"75%"
+      }
+      ,
+      {
+        "name":"Next Js",
+        "level":"70%"
       }
     ]
   },
